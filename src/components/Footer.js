@@ -96,7 +96,7 @@ const Footer = () => {
                             </li>
                             <li>
                                 <FiPhone />
-                                <p>+995 555 343 243</p>
+                                <p>+995 5XX XXX XXX</p>
                             </li>
                         </ul>
 
