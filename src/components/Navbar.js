@@ -39,13 +39,13 @@ const Navbar = () => {
         <NavLink to="10-step-skincare" activeClassName="active"
             className='rest'>skincare routine</NavLink>
          {/*3.--   wishlist */}
-         <NavLink to="/wishlist" activeClassName="active" className='rest'>
+         <NavLink to="/wishlist" activeClassName="active" className='rest' aria-label="wishlist">
             <IconContext.Provider value={{
                 color: '#fd7e14', size: '30px'
             }} >
-                <div ><FiShoppingCart /></div>
+                <div aria-label="shopping card"><FiShoppingCart /></div>
             </IconContext.Provider>
-            <div className='counter'>{wishlist.length}</div>
+            <div className='counter' aria-label="Wishlist item number">{wishlist.length}</div>
         </NavLink>
         {/* 4-5----   ABOUT / CONTACT HASH links */}
         <NavHashLink to="/#about"
