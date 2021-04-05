@@ -22,7 +22,7 @@ const SingleProduct = () => {
         setSelectedItem(e.target.value)
     }
     return <section style={{ textAlign: 'center' }}>
-        <div className='single-product'>
+        <div className='single-product' aria-label="Product Description">
             <div className="single-product-img">
                 <img src={image} alt={name} />
             </div>
