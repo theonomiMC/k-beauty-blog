@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="footer-grid">
                     <div className='footer-item'>
                         <h4>korean beauty</h4>
-                        <blockquote>
+                        <blockquote id="quote">
                             <p>
                                 <q><i>Be good to your skin. you'll wear it
                     every day for the rest of your live</i>.</q>
@@ -22,19 +22,19 @@ const Footer = () => {
                             </p></blockquote>
 
                         <br />
-                        <ul className='social-links'>
+                        <ul className='social-links' aria-label="social links">
                             <li>
-                                <a href="https://facebook.com"><FiFacebook /></a>
+                                <a href="https://facebook.com" target="_blank" rel="noreferrer"><FiFacebook /></a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/nataliabakakuri/"><FiLinkedin /></a>
+                                <a href="https://www.linkedin.com/in/nataliabakakuri/" target="_blank" rel="noreferrer"><FiLinkedin /></a>
                             </li>
                             <li>
-                                <a href="https://github.com/theonomiMC"><FiGithub /></a>
+                                <a href="https://github.com/theonomiMC" target="_blank" rel="noreferrer"><FiGithub /></a>
                             </li>
                         </ul>
                     </div>
-                    <div className='footer-item'>
+                    <div className='footer-item' aria-label="Site navigation">
                         <h4>navigate</h4>
                         <ul>
                             <li>
@@ -61,7 +61,7 @@ const Footer = () => {
 
                         </ul>
                     </div>
-                    <div className='footer-item'>
+                    <div className='footer-item' aria-label="korean brands in georgia">
                         <h4>korean brands in georgia</h4>
                         <ul>
                             <li>
@@ -83,7 +83,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="footer-item" id="contact">
+                    <div className="footer-item" id="contact" role='contact'>
                         <h4>contact</h4>
                         <ul>
                             <li>
