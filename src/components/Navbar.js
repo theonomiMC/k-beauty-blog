@@ -58,7 +58,7 @@ const Navbar = () => {
              </NavHashLink>
             </div>
         {/* click icon */}
-        <button className="navbar-icon-wrapper">
+        <button className="navbar-icon-wrapper" role='toggle' aria-label='show-hide menu'>
             <span className='navbar-icon'><FaBars onClick={() => setIsMenuOpen(!isMenuOpen)}/></span>
         </button>
 
