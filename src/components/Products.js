@@ -50,7 +50,7 @@ const Products = () => {
     let lastList = searchTerm ? newList.filter(item => item.name.toLowerCase().includes(searchTerm.toLowerCase())) : newList
 
     return <section>
-        <div className='search'>
+        <div className='search' role="search">
             <form onSubmit={handleSubmit}>
 
                 <div className='form-control'>
