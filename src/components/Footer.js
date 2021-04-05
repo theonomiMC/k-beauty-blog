@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="footer-grid">
                     <div className='footer-item'>
                         <h4>korean beauty</h4>
-                        <blockquote id="quote">
+                        <blockquote>
                             <p>
                                 <q><i>Be good to your skin. you'll wear it
                     every day for the rest of your live</i>.</q>
