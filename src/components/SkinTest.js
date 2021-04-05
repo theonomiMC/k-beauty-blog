@@ -29,7 +29,7 @@ const SkinTest = () => {
     }
 
     return (
-        <article>
+        <article aria-labelledby="skincare-test">
             <h3 id="skincare-test">take this test to know your skin type.</h3>
             <div className='test-box'>
                 <div className='test-header'>
