@@ -24,13 +24,13 @@ const Footer = () => {
                         <br />
                         <ul className='social-links' aria-label="social links">
                             <li>
-                                <a href="https://facebook.com" target="_blank" rel="noreferrer"><FiFacebook /></a>
+                                <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="facebook link"><FiFacebook /></a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/nataliabakakuri/" target="_blank" rel="noreferrer"><FiLinkedin /></a>
+                                <a href="https://www.linkedin.com/in/nataliabakakuri/" target="_blank" rel="noreferrer" aria-label="Linkedin link"><FiLinkedin /></a>
                             </li>
                             <li>
-                                <a href="https://github.com/theonomiMC" target="_blank" rel="noreferrer"><FiGithub /></a>
+                                <a href="https://github.com/theonomiMC" target="_blank" rel="noreferrer" aria-label="Github link"><FiGithub /></a>
                             </li>
                         </ul>
                     </div>
