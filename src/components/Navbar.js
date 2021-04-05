@@ -26,7 +26,7 @@ const Navbar = () => {
         className={`${!isMenuOpen ? "navbar" : "navbar responsive"}`}
         ref={menuRef}>
 
-        <Link to="/">
+        <Link to="/" aria-label="Main Page link">
             <img src="/images/main-logo.png" alt="main-logo"
                 className="main-logo" />
         </Link>
