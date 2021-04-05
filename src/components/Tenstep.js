@@ -3,7 +3,7 @@ import { list, onlineShopLinks } from "../data";
 
 const Tenstep = () => {
     return <section>
-        <article className="tenstep">
+        <article className="tenstep" aria-label="Ten steps">
             <h3 className='main title'>კანის მოვლის 10 საფეხური</h3>
             <h4 className='sub title'>კორეული მეთოდი,
         რომელმაც შეცვალა სილამაზის ინდუსტრია</h4>
