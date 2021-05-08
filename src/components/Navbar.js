@@ -13,7 +13,7 @@ const Navbar = () => {
     const menuRef = createRef()
     const clickOutside = e => {
         if(menuRef.current && !menuRef.current.contains(e.target)){
-            console.log(menuRef.current)
+//             console.log(menuRef.current)
         setIsMenuOpen(false)
         }
     }
